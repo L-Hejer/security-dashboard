@@ -1,0 +1,47 @@
+export const vulnerabilitySummary = [
+  { name: "Critical", value: 8 },
+  { name: "High", value: 18 },
+  { name: "Medium", value: 35 },
+  { name: "Low", value: 22 },
+];
+
+export const vulnerabilitiesOverTime = [
+  { date: "Mar 1", critical: 16, high: 29, medium: 53, low: 31 },
+  { date: "Mar 2", critical: 15, high: 28, medium: 54, low: 32 },
+  { date: "Mar 3", critical: 17, high: 31, medium: 55, low: 31 },
+  { date: "Mar 4", critical: 16, high: 30, medium: 53, low: 30 },
+  { date: "Mar 5", critical: 15, high: 29, medium: 52, low: 30 },
+  { date: "Mar 6", critical: 14, high: 27, medium: 50, low: 29 },
+  { date: "Mar 7", critical: 15, high: 28, medium: 51, low: 30 },
+  { date: "Mar 8", critical: 14, high: 27, medium: 49, low: 28 },
+  { date: "Mar 9", critical: 13, high: 26, medium: 48, low: 27 },
+  { date: "Mar 10", critical: 14, high: 28, medium: 50, low: 29 },
+  { date: "Mar 11", critical: 13, high: 26, medium: 48, low: 28 },
+  { date: "Mar 12", critical: 12, high: 25, medium: 46, low: 27 },
+  { date: "Mar 13", critical: 11, high: 24, medium: 45, low: 26 },
+  { date: "Mar 14", critical: 12, high: 25, medium: 46, low: 27 },
+  { date: "Mar 15", critical: 13, high: 27, medium: 47, low: 28 },
+  { date: "Mar 16", critical: 12, high: 25, medium: 45, low: 27 },
+  { date: "Mar 17", critical: 11, high: 24, medium: 44, low: 26 },
+  { date: "Mar 18", critical: 10, high: 23, medium: 43, low: 25 },
+  { date: "Mar 19", critical: 11, high: 24, medium: 44, low: 26 },
+  { date: "Mar 20", critical: 10, high: 22, medium: 42, low: 25 },
+  { date: "Mar 21", critical: 9, high: 21, medium: 41, low: 24 },
+  { date: "Mar 22", critical: 10, high: 23, medium: 42, low: 25 },
+  { date: "Mar 23", critical: 9, high: 21, medium: 40, low: 24 },
+  { date: "Mar 24", critical: 10, high: 22, medium: 41, low: 25 },
+  { date: "Mar 25", critical: 9, high: 20, medium: 39, low: 24 },
+  { date: "Mar 26", critical: 8, high: 19, medium: 37, low: 23 },
+  { date: "Mar 27", critical: 9, high: 20, medium: 38, low: 24 },
+  { date: "Mar 28", critical: 8, high: 19, medium: 36, low: 23 },
+  { date: "Mar 29", critical: 9, high: 20, medium: 37, low: 23 },
+  { date: "Mar 30", critical: 8, high: 18, medium: 35, low: 22 },
+];
+
+export const riskByAsset = [
+  { name: "Servers", critical: 3, high: 7, medium: 12, low: 7 },
+  { name: "Endpoints", critical: 1, high: 4, medium: 9, low: 6 },
+  { name: "Cloud", critical: 2, high: 3, medium: 7, low: 4 },
+  { name: "Network", critical: 1, high: 2, medium: 4, low: 3 },
+  { name: "Applications", critical: 1, high: 2, medium: 3, low: 2 },
+];
